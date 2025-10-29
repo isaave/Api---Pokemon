@@ -1,0 +1,19 @@
+.pokemon-img { 
+    width: 96px; 
+    height: 96px; 
+    image-rendering: pixelated; 
+    margin: 5px auto; 
+    display: block;
+}
+
+.pokemon-img.large-img {
+    width: 150px;
+    height: 150px;
+    margin: 20px auto;
+}
+
+.search-pokeball-icon {
+    width: 30px; 
+    height: 30px;
+    vertical-align: middle; 
+}

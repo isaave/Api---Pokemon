@@ -1,0 +1,22 @@
+.pokemon-type {
+    display: inline-block;
+    padding: 4px 8px;
+    margin: 2px;
+    border-radius: 5px;
+    font-size: 0.7em;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+    text-transform: uppercase;
+}
+
+/* Aplicação das variáveis de cor nos Átomos de Tipo */
+.fire { background-color: var(--color-fire); }
+.water { background-color: var(--color-water); }
+.grass { background-color: var(--color-grass); }
+.electric { background-color: var(--color-electric); }
+.bug { background-color: var(--color-bug); }
+.normal { background-color: var(--color-normal); }
+.poison { background-color: var(--color-poison); }
+.ground { background-color: var(--color-ground); }
+.flying { background-color: var(--color-flying); }

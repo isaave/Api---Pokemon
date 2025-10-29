@@ -1,0 +1,24 @@
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--color-primary);
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+button:hover:not(:disabled) {
+    background-color: #5c6bc0;
+}
+
+button:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+}
+#load-more-btn {
+    display: block;
+    width: 200px;
+    margin: 40px auto;
+}

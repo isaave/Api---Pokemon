@@ -1,0 +1,30 @@
+#search-form { 
+    text-align: center; 
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search-input { 
+    width: 250px; 
+    margin-right: 10px;
+}
+
+#search-button {
+    background: none; 
+    padding: 0;
+    border: none;
+    line-height: 0; 
+}
+
+#search-button:hover:not(:disabled) {
+    background: none; 
+    transform: scale(1.1); 
+}
+pokemon-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 20px;
+    padding-top: 10px;
+}
